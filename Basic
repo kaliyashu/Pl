@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Static Website</title>
+</head>
+<body>
+
+  <h1>Welcome to My Static Website</h1>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <hr>
+
+  <section id="home">
+    <h2>Home</h2>
+    <p>This is a simple static website built using only HTML.</p>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>This page has no CSS or JavaScript. It works entirely with basic HTML elements.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message"></textarea><br><br>
+
+      <input type="submit" value="Send">
+    </form>
+  </section>
+
+  <hr>
+
+  <footer>
+    <p>&copy; 2025 My Static Website</p>
+  </footer>
+
+</body>
+</html>
